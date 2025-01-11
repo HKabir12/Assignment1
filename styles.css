@@ -1,0 +1,389 @@
+
+.body{
+    background-color: #efeaea;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* new bangladesh */
+
+.btn1{
+    width: 90px;
+    margin-top: 20px;
+    color: rgb(0, 255, 30);
+    height: 40px;
+    padding: 5px 10px 5px 5px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 2px;
+    
+      
+}
+.btn1:hover{
+    background-color:#e63636;
+
+}
+
+.btn2{
+    width: 170px;
+    height:30px;
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+
+.btn2:hover{
+    background-color:#e63636;
+    border-color: rgb(7, 247, 167);   
+}
+.bng2{
+    display: flex;
+    background-color: #fff;
+    padding-left: 20px;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+    
+}
+
+/* pillars */
+.pillar{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+/* pillar2 */
+.pillar2{
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 300px;
+    
+}
+
+
+/* vision */
+.digital{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btndigital{
+    width: 100px;
+    height:30px;
+    text-align: center;
+    background-color: rgb(67, 112, 210);
+    border-radius: 5px;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+.btndigital:hover{
+    background-color:#e63636;
+    border-color: rgb(7, 247, 167);   
+}
+
+
+/* innovation */
+.innovation{
+    background-color: #9fbbd6;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    margin-bottom:40px;
+    width: 420px;
+    margin: 2px;
+    padding-bottom: 20px;
+}
+/* sustainability */
+.green{
+    background-color: #9fd6b7;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 420px;
+    padding-bottom: 20px;
+}
+.btn3{
+    width: 100px;
+    height:30px;
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+.btn3:hover{
+    background-color:#e63636;
+    border-color: rgb(7, 247, 167);   
+}
+.modern{
+    background-color: #cbcf68;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 420px;
+}
+.btnm{
+    width: 100px;
+    height:30px;
+    text-align: center;
+    background-color: rgb(67, 112, 210);
+    border-radius: 5px;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+.btnm:hover{
+    background-color:#e63636;
+    border-color: rgb(7, 247, 167);   
+}
+
+
+.imgjazera{
+    margin-left: 0px;
+}
+
+/* yunus
+ */
+ .Yunus{
+    margin-top: 20px;
+    background-color: #fff;
+    background-image: url(assets/quote-bg.png);
+  
+    
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+ }
+
+.container{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    /* margin: 20px; */
+    margin-bottom: 10px;
+
+}
+.content{
+    background-color: #ffffff;
+    margin-left: 0px;
+}
+.source,img,span{
+    background-color: #ffffff;
+    display: flex;
+}
+
+
+.img1{
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+    border-radius: 10%;
+   
+}
+
+/* table */
+
+      .table-container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 97%;
+        margin-top: 15px;
+        
+      }
+      .tableHeader {
+        display: flex;
+        justify-content: left;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        border: 1px solid #ccc;
+      }
+
+      thead {
+        background-color: #d4edda;
+      }
+
+      thead th {
+        padding: 12px;
+        font-weight: bold;
+        color: #333;
+        border: 1px solid #ccc;
+      }
+
+      tbody tr {
+        border: 1px solid #ccc;
+      }
+
+      tbody td {
+        padding: 12px;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+      }
+
+      tbody tr:hover {
+        background-color: #f9f9f9;
+      }
+
+      select {
+        padding: 8px 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+        background-color: #ffffff;
+      }
+
+      select:focus {
+        outline: none;
+        border-color: #80bdff;
+        box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+      }
+   
+
+/* taka */
+.donate{
+    text-align: center;
+    justify-content: space-between;
+    
+}
+
+
+.taka{
+    
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    justify-content: space-between;
+    
+    
+}
+.taka1{
+    
+    border-radius:5px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(67, 210, 84);
+}
+.taka1:hover{
+    background-color:#e63636;
+    border-color: rgb(7, 247, 167);   
+}
+
+.amount{
+    margin: 1px;
+    margin-left: 55px;
+    margin-right: 55px;
+    width: 1200px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.amount:hover{
+    background-color:#6236e6;
+    border-color: rgb(7, 247, 167); 
+}
+.amount2{
+    padding: 15px;
+}
+.donate{
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+   
+}
+
+.donate1{
+    
+    border-radius:5px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(67, 210, 84);
+}
+.donate1:hover{
+    background-color:#6236e6;
+    border-color: rgb(7, 247, 167);   
+}
+
+/* subscribe */
+.fills{
+    display: flex;
+    justify-content: center;
+}
+.subscribe{
+    text-align: center;
+    background-color: #a8d8b0;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    padding-top:5px; 
+   
+    .input{
+        padding: 10px;
+        border-radius: 10px;
+        width: 50%;
+    }
+
+    button{
+        padding: 10px;
+        border-radius: 10px;
+    }
+     
+}
+
+/* footer */
+
+footer{
+    text-align: center;
+    align-items: center;
+    background-color:white;
+    margin-bottom: 0px;
+}
+.footer1{
+    
+    display: flex; 
+            gap: 10px; 
+            padding: 20px;
+            justify-content: center;
+    
+
+   
+   
+    
+}
+
