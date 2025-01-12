@@ -1,12 +1,14 @@
+.body {
+    background-color: #f0f0f0;
 
-.body{
-    background-color: #efeaea;
-    margin-left: 80px;
-    margin-right: 80px;
-   
+    .subbody {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
 
@@ -14,7 +16,7 @@ nav{
 
 /* new bangladesh */
 
-.btn1{
+.btn1 {
     width: 90px;
     margin-top: 20px;
     color: rgb(0, 255, 30);
@@ -24,17 +26,27 @@ nav{
     text-align: center;
     border-radius: 5px;
     margin-right: 2px;
-    
-      
-}
-.btn1:hover{
-    background-color:#e63636;
+
 
 }
 
-.btn2{
+.btn1:hover {
+    background-color: #e63636;
+
+}
+
+.bngpic {
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.btn2 {
     width: 170px;
-    height:30px;
+    height: 30px;
     text-align: center;
     background-color: green;
     border-radius: 5px;
@@ -43,29 +55,55 @@ nav{
 }
 
 
-.btn2:hover{
-    background-color:#e63636;
-    border-color: rgb(7, 247, 167);   
+.btn2:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
-.bng2{
+
+.bng2 {
     display: flex;
-    background-color: #fff;
-    padding-left: 20px;
-    justify-content: space-between;
-    border-radius: 10px;
-   
-    
+    background-color: #ffffff;
+    padding-left: 50px;
+    border-radius: 15px;
+    height: 300px;
+    max-width: 1280px;
+    padding-top: 10px;
+
+    .bng2Text {
+        padding-left: 50px;
+        padding-top: 50px;
+
+    }
+
+    .bng2textpag {
+
+        font-size: 40px;
+        text-align: left;
+
+    }
+
+    .box {
+        width: 30%;
+        margin-left: 170px;
+
+    }
+
+}
+
+.bdmin {
+    padding-top: 15px;
 }
 
 /* pillars */
-.pillar{
+.pillar {
     display: flex;
     justify-content: space-between;
-    
+
 
 }
+
 /* pillar2 */
-.pillar2{
+.pillar2 {
     background-color: #fff;
     border-radius: 10px;
     padding-left: 15px;
@@ -73,20 +111,25 @@ nav{
     padding-bottom: 10px;
     padding-right: 10px;
     width: 300px;
-    
+    margin: 10px;
+
 }
 
 
 /* vision */
-.digital{
+.digital {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
+    gap: 15px;
+
 }
 
 
-.btndigital{
+.btndigital {
+
     width: 100px;
-    height:30px;
+    height: 30px;
     text-align: center;
     background-color: rgb(67, 112, 210);
     border-radius: 5px;
@@ -94,25 +137,26 @@ nav{
     color: #ffffff;
 }
 
-.btndigital:hover{
-    background-color:#e63636;
-    border-color: rgb(7, 247, 167);   
+.btndigital:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
 
 
 /* innovation */
-.innovation{
+.innovation {
     background-color: #9fbbd6;
     border-radius: 10px;
     padding-left: 20px;
     padding-top: 15px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
     width: 420px;
     margin: 2px;
     padding-bottom: 20px;
 }
+
 /* sustainability */
-.green{
+.green {
     background-color: #9fd6b7;
     border-radius: 10px;
     padding-left: 20px;
@@ -120,21 +164,24 @@ nav{
     width: 420px;
     padding-bottom: 20px;
 }
-.btn3{
+
+.btn3 {
     width: 100px;
-    height:30px;
+    height: 40px;
     text-align: center;
     background-color: green;
     border-radius: 5px;
     margin-left: 0px;
     color: #ffffff;
+
 }
 
-.btn3:hover{
-    background-color:#e63636;
-    border-color: rgb(7, 247, 167);   
+.btn3:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
-.modern{
+
+.modern {
     background-color: #cbcf68;
     border-radius: 10px;
     padding-left: 20px;
@@ -142,9 +189,10 @@ nav{
     padding-bottom: 20px;
     width: 420px;
 }
-.btnm{
+
+.btnm {
     width: 100px;
-    height:30px;
+    height: 30px;
     text-align: center;
     background-color: rgb(67, 112, 210);
     border-radius: 5px;
@@ -152,238 +200,275 @@ nav{
     color: #ffffff;
 }
 
-.btnm:hover{
-    background-color:#e63636;
-    border-color: rgb(7, 247, 167);   
+.btnm:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
 
-
-.imgjazera{
-    margin-left: 0px;
-}
 
 /* yunus
  */
- .Yunus{
-    margin-top: 20px;
+.Yunus {
+    display: flex;
+    margin-top: 10px;
     background-color: #fff;
     background-image: url(assets/quote-bg.png);
-  
-    
+    background-position: 40px 30px;
     background-repeat: no-repeat;
     border-radius: 10px;
     text-align: left;
     padding-bottom: 30px;
-    padding-left: 20px;
-    padding-top: 10px;
- }
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-bottom: 15px;
+}
 
-.container{
+.yunuspic {
+
+    width: 200px;
+    height: 150px;
+    margin-top: 20px;
+
+}
+
+.container {
     display: flex;
     background-color: #ffffff;
     border-radius: 15px;
-    padding: 10px;
-    /* margin: 20px; */
+    padding: 15px;
+    padding-top: 20px;
     margin-bottom: 10px;
 
 }
-.content{
+
+.content {
     background-color: #ffffff;
     margin-left: 0px;
 }
-.source,img,span{
-    background-color: #ffffff;
-    display: flex;
-}
 
-
-.img1{
+.img1 {
     width: 200px;
     height: 250px;
     margin-right: 20px;
     border-radius: 10%;
-   
+    padding-top: 20px;
+
 }
 
 /* table */
 
-      .table-container {
-        background-color: #ffffff;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        width: 97%;
-        margin-top: 15px;
-        
-      }
-      .tableHeader {
-        display: flex;
-        justify-content: left;
-      }
+.table-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 97%;
+    margin-top: 15px;
 
-      h1 {
-        text-align: center;
-        font-size: 1.5rem;
-        margin-bottom: 20px;
-        color: #333;
-      }
+}
 
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: left;
-        border: 1px solid #ccc;
-      }
+.tableHeader {
+    display: flex;
+    justify-content: left;
+}
 
-      thead {
-        background-color: #d4edda;
-      }
-
-      thead th {
-        padding: 12px;
-        font-weight: bold;
-        color: #333;
-        border: 1px solid #ccc;
-      }
-
-      tbody tr {
-        border: 1px solid #ccc;
-      }
-
-      tbody td {
-        padding: 12px;
-        vertical-align: middle;
-        border: 1px solid #ccc;
-      }
-
-      tbody tr:hover {
-        background-color: #f9f9f9;
-      }
-
-      select {
-        padding: 8px 12px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 1rem;
-        background-color: #ffffff;
-      }
-
-      select:focus {
-        outline: none;
-        border-color: #80bdff;
-        box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
-      }
-   
-
-/* taka */
-.donate{
+h1 {
     text-align: center;
-    justify-content: space-between;
-    
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #d4edda;
+}
+
+thead th {
+    padding: 12px;
+    font-weight: bold;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+tbody tr {
+    border: 1px solid #ccc;
+}
+
+tbody td {
+    padding: 12px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #ffffff;
+
+}
+
+.agree {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    border-radius: 5px;
+    margin-left: 80px;
+    color: #ffffff;
+
+
+}
+
+.select {}
+
+.agree:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
 
 
-.taka{
-    
+/* taka */
+.donate {
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+
+.taka {
+
     display: flex;
     text-align: center;
     padding: 15px;
     justify-content: space-between;
-    
-    
+
+
 }
-.taka1{
-    
-    border-radius:5px;
+
+.taka1 {
+
+    border-radius: 5px;
     width: 300px;
     height: 50px;
     text-align: center;
     background-color: rgb(67, 210, 84);
 }
-.taka1:hover{
-    background-color:#e63636;
-    border-color: rgb(7, 247, 167);   
+
+.taka1:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
 
-.amount{
-    margin: 1px;
-    margin-left: 55px;
-    margin-right: 55px;
+.amount {
+    margin-left: 35px;
+    margin-right: 70px;
     width: 1200px;
     height: 40px;
     border-radius: 5px;
-    
+
 }
-.amount:hover{
-    background-color:#6236e6;
-    border-color: rgb(7, 247, 167); 
+
+.amount:hover {
+    background-color: #6236e6;
+    border-color: rgb(7, 247, 167);
 }
-.amount2{
+
+.amount2 {
     padding: 15px;
+
 }
-.donate{
+
+.donate {
     padding: 10px;
     justify-content: center;
     border-radius: 5px;
-   
+
 }
 
-.donate1{
-    
-    border-radius:5px;
+.donate1 {
+
+    border-radius: 5px;
     width: 120px;
     height: 40px;
     text-align: center;
     background-color: rgb(67, 210, 84);
 }
-.donate1:hover{
-    background-color:#6236e6;
-    border-color: rgb(7, 247, 167);   
+
+.donate1:hover {
+    background-color: #6236e6;
+    border-color: rgb(7, 247, 167);
 }
 
 /* subscribe */
-.fills{
+.fills {
     display: flex;
     justify-content: center;
 }
-.subscribe{
+
+.subscribe {
     text-align: center;
     background-color: #a8d8b0;
-    border-radius: 5px;
     padding-bottom: 30px;
-    padding-top:5px; 
-   
-    .input{
+    padding-top: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+
+    .input {
         padding: 10px;
-        border-radius: 10px;
+        border-bottom-left-radius: 15px 15px;
+        border-top-left-radius: 15px 15px;
         width: 50%;
     }
 
-    button{
-        padding: 10px;
-        border-radius: 10px;
-    }
-     
+
+
+}
+
+.subbtn {
+    padding: 10px;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: green;
+    margin-left: 0px;
+    color: #ffffff;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+
+}
+
+.subbtn:hover {
+    background-color: #e63636;
+    border-color: rgb(7, 247, 167);
 }
 
 /* footer */
 
-footer{
+footer {
     text-align: center;
     align-items: center;
-    background-color:white;
+    background-color: white;
     margin-bottom: 0px;
-}
-.footer1{
-    
-    display: flex; 
-            gap: 10px; 
-            padding: 20px;
-            justify-content: center;
-    
+    width: 100%;
+    padding-top: 15px;
 
-   
-   
-    
 }
 
+.footer1 {
+
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+
+}
